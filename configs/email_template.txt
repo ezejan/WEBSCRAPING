@@ -1,0 +1,8 @@
+Hola ${nombre},
+
+Te contactamos porque ofrecemos una plataforma donde los profesionales del servicio de ${servicio} pueden encontrar nuevos clientes en ${zona}.
+
+Si estás interesado, por favor regístrate en nuestro sitio y comienza a recibir solicitudes.
+
+Saludos cordiales,
+El equipo de reclutamiento
