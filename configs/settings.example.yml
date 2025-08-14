@@ -1,0 +1,26 @@
+# Archivo de configuración de ejemplo
+scraping:
+  # URLs de los directorios. Utiliza {service} como marcador para insertar el
+  # nombre del servicio.
+  urls:
+    - "https://ejemplo.com/buscar?categoria={service}&provincia=Buenos+Aires"
+  location: "Provincia de Buenos Aires"
+  delay_range: [1, 3]
+  max_entries: 100
+
+storage:
+  csv: "data/proveedores.csv"
+  # sqlite: "data/proveedores.db"  # Descomentar para usar SQLite
+
+email:
+  smtp_server: "smtp.ejemplo.com"
+  smtp_port: 587
+  username: "usuario@ejemplo.com"
+  password: "contraseña"
+  from_addr: "usuario@ejemplo.com"
+  subject: "Invitación para registrarse en nuestra plataforma"
+  template_path: "configs/email_template.txt"
+  test_recipient: "prueba@ejemplo.com"
+
+# Límite opcional de correos a enviar en cada ejecución
+max_emails: 50

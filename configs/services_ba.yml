@@ -1,0 +1,29 @@
+services:
+  - Electricista
+  - Gasista
+  - Plomero
+  - Cerrajero
+  - Pintor
+  - Carpintero
+  - Albañil
+  - Techista
+  - Impermeabilizado de techos
+  - Colocación de cerámicos/pisos
+  - Herrero
+  - Vidriero
+  - Instalación de aires acondicionados
+  - Reparación de electrodomésticos
+  - Armado de muebles
+  - Jardinería
+  - Poda y mantenimiento de árboles
+  - Fumigación y control de plagas
+  - Limpieza de tanques de agua
+  - Limpieza profesional (hogares)
+  - Limpieza post-obra
+  - Instalación de cámaras de seguridad
+  - Instalación de alarmas
+  - Cableado de redes/internet
+  - Mantenimiento de piletas
+  - Colocación de cortinas y barrales
+  - Servicio técnico TV y audio
+  - Revestimiento de paredes (durlock, madera, etc.)
